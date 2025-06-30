@@ -1,0 +1,68 @@
+{
+  "certifications": [
+    {
+      "Id": 1,
+      "name": "ISO 9001:2015",
+      "issuer": "BSI Group",
+      "validUntil": "2025-08-15",
+      "documentUrl": "#",
+      "logo": "iso-9001-logo.png"
+    },
+    {
+      "Id": 2,
+      "name": "AS9100D",
+      "issuer": "SAI Global",
+      "validUntil": "2025-12-20",
+      "documentUrl": "#",
+      "logo": "as9100-logo.png"
+    },
+    {
+      "Id": 3,
+      "name": "ISO 14001:2015",
+      "issuer": "BSI Group",
+      "validUntil": "2025-08-15",
+      "documentUrl": "#",
+      "logo": "iso-14001-logo.png"
+    },
+    {
+      "Id": 4,
+      "name": "IATF 16949:2016",
+      "issuer": "TUV SUD",
+      "validUntil": "2025-06-30",
+      "documentUrl": "#",
+      "logo": "iatf-16949-logo.png"
+    },
+    {
+      "Id": 5,
+      "name": "ISO 13485:2016",
+      "issuer": "BSI Group",
+      "validUntil": "2025-09-10",
+      "documentUrl": "#",
+      "logo": "iso-13485-logo.png"
+    },
+    {
+      "Id": 6,
+      "name": "NADCAP Welding",
+      "issuer": "Performance Review Institute",
+      "validUntil": "2024-11-15",
+      "documentUrl": "#",
+      "logo": "nadcap-logo.png"
+    },
+    {
+      "Id": 7,
+      "name": "ITAR Registration",
+      "issuer": "U.S. Department of State",
+      "validUntil": "2025-03-31",
+      "documentUrl": "#",
+      "logo": "itar-logo.png"
+    },
+    {
+      "Id": 8,
+      "name": "FDA 21 CFR Part 820",
+      "issuer": "U.S. Food & Drug Administration",
+      "validUntil": "2025-12-31",
+      "documentUrl": "#",
+      "logo": "fda-logo.png"
+    }
+  ]
+}

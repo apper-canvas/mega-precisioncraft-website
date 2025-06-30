@@ -1,0 +1,76 @@
+{
+  "capabilities": [
+    {
+      "Id": 1,
+      "title": "5-Axis CNC Machining",
+      "description": "Advanced 5-axis machining centers capable of producing complex geometries with superior surface finishes and tight tolerances in a single setup.",
+      "icon": "Settings2",
+      "specifications": [
+        { "label": "Max Part Size", "value": "84\" x 32\" x 30\"" },
+        { "label": "Spindle Speed", "value": "12,000 RPM" },
+        { "label": "Positioning Accuracy", "value": "±0.0001\"" },
+        { "label": "Tool Capacity", "value": "40 Tools" }
+      ]
+    },
+    {
+      "Id": 2,
+      "title": "Swiss Turning",
+      "description": "High-precision Swiss-type lathes for complex, small-diameter parts with exceptional surface finish and dimensional accuracy.",
+      "icon": "RotateCcw",
+      "specifications": [
+        { "label": "Max Bar Diameter", "value": "1.25\"" },
+        { "label": "Spindle Speed", "value": "10,000 RPM" },
+        { "label": "Length Capacity", "value": "12\"" },
+        { "label": "Tolerance", "value": "±0.0002\"" }
+      ]
+    },
+    {
+      "Id": 3,
+      "title": "Wire EDM",
+      "description": "Ultra-precision wire electrical discharge machining for intricate shapes, tight radii, and superior surface finishes on hardened materials.",
+      "icon": "Zap",
+      "specifications": [
+        { "label": "Work Area", "value": "29.5\" x 19.7\"" },
+        { "label": "Max Height", "value": "16\"" },
+        { "label": "Wire Diameter", "value": "0.004\" - 0.012\"" },
+        { "label": "Accuracy", "value": "±0.00008\"" }
+      ]
+    },
+    {
+      "Id": 4,
+      "title": "Coordinate Measuring",
+      "description": "State-of-the-art CMM systems with advanced probe technology for comprehensive dimensional verification and quality control.",
+      "icon": "Ruler",
+      "specifications": [
+        { "label": "Measuring Range", "value": "39\" x 31\" x 27\"" },
+        { "label": "Accuracy", "value": "0.9 + L/300 μm" },
+        { "label": "Probe System", "value": "VAST XXT" },
+        { "label": "Software", "value": "Calypso" }
+      ]
+    },
+    {
+      "Id": 5,
+      "title": "Surface Grinding",
+      "description": "Precision surface grinding capabilities for achieving superior flatness, parallelism, and surface finish requirements.",
+      "icon": "Disc",
+      "specifications": [
+        { "label": "Table Size", "value": "24\" x 12\"" },
+        { "label": "Max Height", "value": "16\"" },
+        { "label": "Flatness", "value": "±0.0001\"" },
+        { "label": "Surface Finish", "value": "4 µin Ra" }
+      ]
+    },
+    {
+      "Id": 6,
+      "title": "Assembly Services",
+      "description": "Complete sub-assembly and final assembly services with comprehensive testing and quality verification protocols.",
+      "icon": "Wrench",
+      "specifications": [
+        { "label": "Clean Room", "value": "Class 10,000" },
+        { "label": "Torque Range", "value": "0.1 - 500 ft-lbs" },
+        { "label": "Leak Testing", "value": "1 x 10⁻⁹ atm·cc/s" },
+        { "label": "Documentation", "value": "Full Traceability" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "products": [
+    {
+      "Id": 1,
+      "name": "Precision Aerospace Bracket",
+      "category": "Aerospace Components",
+      "description": "High-strength aluminum bracket designed for aircraft structural applications. Features precision-machined mounting points and optimized weight reduction.",
+      "specifications": {
+        "material": "7075-T6 Aluminum",
+        "dimensions": "4.5\" x 2.8\" x 1.2\"",
+        "tolerance": "±0.002\"",
+        "surfaceFinish": "32 µin Ra",
+        "weight": "0.85 lbs",
+        "testingStandard": "AS9100D"
+      },
+      "materials": ["7075-T6 Aluminum", "Anodized Coating", "Stainless Steel Fasteners"],
+      "applications": [
+        "Aircraft structural mounting",
+        "Avionics equipment support",
+        "Engine component assembly",
+        "Landing gear systems"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1581092795442-781432e28906?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=600&h=400&fit=crop"
+      ]
+    },
+    {
+      "Id": 2,
+      "name": "Medical Device Housing",
+      "category": "Medical Devices",
+      "description": "Biocompatible titanium housing for implantable medical devices. Manufactured to strict FDA standards with superior corrosion resistance.",
+      "specifications": {
+        "material": "Grade 2 Titanium",
+        "dimensions": "2.1\" x 1.8\" x 0.9\"",
+        "tolerance": "±0.001\"",
+        "surfaceFinish": "16 µin Ra",
+        "biocompatibility": "ISO 10993",
+        "sterilization": "Gamma & ETO Compatible"
+      },
+      "materials": ["Grade 2 Titanium", "Biocompatible Coating"],
+      "applications": [
+        "Pacemaker housings",
+        "Insulin pump components",
+        "Surgical instrument cases",
+        "Implantable device enclosures"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1559757175-2043f2d38883?w=600&h=400&fit=crop"
+      ]
+    },
+    {
+      "Id": 3,
+      "name": "Automotive Transmission Gear",
+      "category": "Automotive Parts",
+      "description": "High-precision transmission gear manufactured from case-hardened steel. Optimized tooth profile for maximum power transfer and durability.",
+      "specifications": {
+        "material": "8620 Steel (Carburized)",
+        "pitchDiameter": "3.250\"",
+        "moduleSize": "2.5",
+        "toothCount": "32",
+        "hardness": "58-62 HRC",
+        "gear Quality": "AGMA Class 8"
+      },
+      "materials": ["8620 Alloy Steel", "Carburizing Treatment", "Precision Ground Finish"],
+      "applications": [
+        "Manual transmissions",
+        "Automatic transmissions",
+        "Transfer cases",
+        "Differential assemblies"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1486312338219-ce68e2c54648?w=600&h=400&fit=crop"
+      ]
+    },
+    {
+      "Id": 4,
+      "name": "Industrial Valve Body",
+      "category": "Industrial Equipment",
+      "description": "Heavy-duty stainless steel valve body for high-pressure applications. Features precision-machined sealing surfaces and threaded connections.",
+      "specifications": {
+        "material": "316L Stainless Steel",
+        "pressureRating": "3000 PSI",
+        "temperatureRange": "-20°F to 400°F",
+        "connectionSize": "2\" NPT",
+        "testing": "Hydrostatic & Pneumatic",
+        "certification": "ASME B16.34"
+      },
+      "materials": ["316L Stainless Steel", "PTFE Seals", "Inconel Springs"],
+      "applications": [
+        "Oil & gas processing",
+        "Chemical manufacturing",
+        "Power generation",
+        "Water treatment systems"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092795442-781432e28906?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=600&h=400&fit=crop"
+      ]
+    },
+    {
+      "Id": 5,
+      "name": "Electronic Component Heat Sink",
+      "category": "Electronics",
+      "description": "Aluminum heat sink with optimized fin design for maximum thermal dissipation. Custom machined for specific electronic component mounting.",
+      "specifications": {
+        "material": "6061-T6 Aluminum",
+        "thermalConductivity": "167 W/m·K",
+        "finSpacing": "2.5mm",
+        "baseThickness": "8mm",
+        "mountingPattern": "Custom",
+        "surfaceTreatment": "Black Anodized"
+      },
+      "materials": ["6061-T6 Aluminum", "Black Anodizing", "Thermal Interface Pad"],
+      "applications": [
+        "CPU cooling systems",
+        "LED driver assemblies",
+        "Power electronics",
+        "RF amplifier cooling"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop"
+      ]
+    },
+    {
+      "Id": 6,
+      "name": "Precision Optical Mount",
+      "category": "Electronics",
+      "description": "Ultra-precision optical component mount with micro-adjustment capabilities. Manufactured to stringent dimensional tolerances for laser applications.",
+      "specifications": {
+        "material": "Invar 36",
+        "dimensionalStability": "±0.0001\"",
+        "adjustmentRange": "±5°",
+        "mountingThread": "M6 x 1.0",
+        "surfaceFinish": "8 µin Ra",
+        "thermalExpansion": "1.2 × 10⁻⁶/°C"
+      },
+      "materials": ["Invar 36 Alloy", "Precision Ball Bearings", "Stainless Steel Hardware"],
+      "applications": [
+        "Laser alignment systems",
+        "Optical instrumentation",
+        "Precision measurement devices",
+        "Research laboratory equipment"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092795442-781432e28906?w=600&h=400&fit=crop"
+      ]
+    },
+    {
+      "Id": 7,
+      "name": "Aerospace Fuel System Manifold",
+      "category": "Aerospace Components",
+      "description": "Complex fuel distribution manifold for commercial aircraft engines. Features multiple precision-machined ports and integrated pressure fittings.",
+      "specifications": {
+        "material": "Inconel 718",
+        "pressureRating": "5000 PSI",
+        "temperatureRange": "-65°F to 1200°F",
+        "portQuantity": "8 Outlets",
+        "testing": "100% Leak Test",
+        "certification": "FAA PMA"
+      },
+      "materials": ["Inconel 718", "Hastelloy Fittings", "High-Temp Seals"],
+      "applications": [
+        "Commercial aircraft engines",
+        "Military jet propulsion",
+        "Helicopter fuel systems",
+        "Auxiliary power units"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092795442-781432e28906?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop"
+      ]
+    },
+    {
+      "Id": 8,
+      "name": "Medical Surgical Instrument",
+      "category": "Medical Devices",
+      "description": "Precision-crafted surgical forceps with specialized jaw design. Manufactured from medical-grade stainless steel with superior corrosion resistance.",
+      "specifications": {
+        "material": "17-4 PH Stainless Steel",
+        "overallLength": "6.5\"",
+        "jawWidth": "3mm",
+        "hardness": "42-45 HRC",
+        "surfaceFinish": "Mirror Polish",
+        "sterilization": "Autoclave Compatible"
+      },
+      "materials": ["17-4 PH Stainless Steel", "Passivation Treatment"],
+      "applications": [
+        "Microsurgery procedures",
+        "Ophthalmic surgery",
+        "Dental procedures",
+        "Veterinary applications"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1559757175-2043f2d38883?w=600&h=400&fit=crop"
+      ]
+    }
+  ]
+}
