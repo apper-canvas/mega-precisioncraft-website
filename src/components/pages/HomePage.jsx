@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import Button from '@/components/atoms/Button'
-import Card from '@/components/atoms/Card'
-import ProductCard from '@/components/molecules/ProductCard'
-import CapabilityCard from '@/components/molecules/CapabilityCard'
-import Loading from '@/components/ui/Loading'
-import Error from '@/components/ui/Error'
-import ApperIcon from '@/components/ApperIcon'
-import { getProducts } from '@/services/api/productService'
-import { getCapabilities } from '@/services/api/capabilityService'
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
+import Card from "@/components/atoms/Card";
+import Button from "@/components/atoms/Button";
+import ProductCard from "@/components/molecules/ProductCard";
+import CapabilityCard from "@/components/molecules/CapabilityCard";
+import FAQAccordion from "@/components/molecules/FAQAccordion";
+import Error from "@/components/ui/Error";
+import Loading from "@/components/ui/Loading";
+import { getCapabilities } from "@/services/api/capabilityService";
+import { getProducts } from "@/services/api/productService";
 
 const HomePage = () => {
   const [products, setProducts] = useState([])
@@ -55,6 +56,29 @@ const HomePage = () => {
       quote: "We've partnered with PrecisionCraft for over 10 years. Their reliability and technical expertise make them our go-to manufacturing partner.",
       author: "Michael Chen",
       title: "Supply Chain Director, AutoParts Inc."
+}
+  ]
+
+  const faqs = [
+    {
+      question: "What materials do you work with?",
+      answer: "We work with a wide range of materials including aluminum, steel, stainless steel, titanium, brass, and various engineering plastics. Our team can recommend the best material for your specific application requirements."
+    },
+    {
+      question: "What is your typical lead time for custom parts?",
+      answer: "Lead times vary depending on complexity and quantity, but typically range from 2-6 weeks for standard machining projects. We offer expedited services for urgent requirements and will provide accurate timelines with your quote."
+    },
+    {
+      question: "Do you provide quality certifications?",
+      answer: "Yes, we are ISO 9001:2015 certified and provide comprehensive quality documentation including certificates of conformance, material certifications, and dimensional inspection reports with all shipments."
+    },
+    {
+      question: "What industries do you serve?",
+      answer: "We serve aerospace, automotive, medical device, defense, electronics, and general industrial markets. Our quality systems and processes are designed to meet the stringent requirements of these regulated industries."
+    },
+    {
+      question: "Can you handle both prototyping and production runs?",
+      answer: "Absolutely. We specialize in both rapid prototyping for product development and high-volume production runs. Our flexible manufacturing capabilities allow us to scale efficiently from prototype to production."
     }
   ]
 
@@ -267,6 +291,35 @@ const HomePage = () => {
               </motion.div>
             ))}
           </div>
+</div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-500 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-secondary-500 max-w-3xl mx-auto">
+              Find answers to common questions about our products, services, and manufacturing capabilities.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <FAQAccordion faqs={faqs} />
+          </motion.div>
         </div>
       </section>
 

@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "question": "What types of materials do you work with?",
+    "answer": "We work with a wide range of materials including aerospace-grade aluminum alloys, stainless steel (304, 316, 17-4 PH), carbon steel, titanium, brass, copper, and various engineering plastics. Our material selection depends on your specific application requirements, including strength, corrosion resistance, weight considerations, and environmental factors.\n\nWe maintain certifications for aerospace and medical-grade materials and can provide full material traceability documentation with each shipment.",
+    "category": "Materials"
+  },
+  {
+    "Id": 2,
+    "question": "What is your typical lead time for custom parts?",
+    "answer": "Lead times vary depending on complexity, quantity, and current production schedule:\n\n• Simple machined parts: 5-10 business days\n• Complex assemblies: 15-25 business days\n• Large quantity orders: 20-30 business days\n• Rush orders: 2-5 business days (additional charges apply)\n\nWe provide detailed timeline estimates with every quote and offer expedited services for urgent requirements. Our production planning team works closely with customers to meet critical deadlines.",
+    "category": "Production"
+  },
+  {
+    "Id": 3,
+    "question": "Do you provide quality certifications?",
+    "answer": "Yes, we maintain comprehensive quality certifications including:\n\n• ISO 9001:2015 Quality Management System\n• AS9100D Aerospace Quality Management\n• ISO 13485 Medical Device Quality Management\n• ITAR Registration for defense contractors\n• First Article Inspection Reports (FAIR)\n• Certificate of Conformance (C of C) with every shipment\n\nAll certifications are maintained by accredited third-party organizations and are available for customer review.",
+    "category": "Quality"
+  },
+  {
+    "Id": 4,
+    "question": "What is your minimum order quantity?",
+    "answer": "We accommodate orders of all sizes:\n\n• Prototype quantities: 1-10 pieces\n• Small batch production: 10-100 pieces\n• Medium production runs: 100-1,000 pieces\n• Large volume production: 1,000+ pieces\n\nThere is no strict minimum order quantity, though setup costs may affect pricing for very small quantities. We're experienced in both prototype development and high-volume production, adapting our processes to meet your specific needs.",
+    "category": "Production"
+  },
+  {
+    "Id": 5,
+    "question": "Can you handle complex geometries and tight tolerances?",
+    "answer": "Absolutely. Our advanced manufacturing capabilities include:\n\n• 5-axis CNC machining for complex geometries\n• Tolerances down to ±0.0002\" (±0.005mm)\n• Multi-spindle turning centers for intricate features\n• EDM (Electrical Discharge Machining) for difficult-to-machine materials\n• Swiss-type lathes for high-precision small parts\n\nOur team of experienced machinists and engineers work together to optimize manufacturing processes for even the most challenging specifications.",
+    "category": "Capabilities"
+  },
+  {
+    "Id": 6,
+    "question": "Do you offer design and engineering support?",
+    "answer": "Yes, we provide comprehensive design and engineering services:\n\n• Design for Manufacturing (DFM) analysis\n• CAD modeling and drawing creation\n• Material selection consultation\n• Cost optimization recommendations\n• Prototype development and testing\n• Reverse engineering services\n\nOur engineering team has decades of experience across aerospace, automotive, and industrial applications. We work as an extension of your team to ensure optimal part design and manufacturability.",
+    "category": "Services"
+  },
+  {
+    "Id": 7,
+    "question": "What finishing options do you provide?",
+    "answer": "We offer a complete range of finishing services:\n\n• Anodizing (Type II and Type III)\n• Electroplating (nickel, chrome, zinc)\n• Powder coating (various colors)\n• Passivation for stainless steel\n• Heat treating and stress relieving\n• Deburring and surface smoothing\n• Custom marking and engraving\n\nAll finishing operations are performed by certified partners or in-house using controlled processes to ensure consistent quality and adherence to specifications.",
+    "category": "Services"
+  },
+  {
+    "Id": 8,
+    "question": "How do you ensure consistent quality across production runs?",
+    "answer": "Quality consistency is maintained through our comprehensive quality management system:\n\n• Statistical Process Control (SPC) monitoring\n• In-process inspection at critical operations\n• Final inspection using CMM and precision measuring equipment\n• Documented work instructions for all processes\n• Regular calibration of all measuring equipment\n• Continuous training of production personnel\n• Customer-specific quality plans when required\n\nWe maintain detailed quality records for traceability and continuous improvement purposes.",
+    "category": "Quality"
+  },
+  {
+    "Id": 9,
+    "question": "Can you work with customer-supplied materials?",
+    "answer": "Yes, we regularly work with customer-supplied materials. This service includes:\n\n• Incoming material inspection and verification\n• Proper material handling and storage\n• Material traceability throughout production\n• Coordination with customer material shipments\n• Waste material return if required\n\nWe require material certifications and will perform incoming inspection to verify material specifications before beginning production. This helps ensure the final parts meet all requirements.",
+    "category": "Materials"
+  },
+  {
+    "Id": 10,
+    "question": "What industries do you serve?",
+    "answer": "We serve a diverse range of industries with specialized requirements:\n\n• Aerospace & Defense: Flight-critical components, landing gear, engine parts\n• Automotive: Engine components, transmission parts, suspension systems\n• Medical Device: Surgical instruments, implant components, diagnostic equipment\n• Industrial Equipment: Hydraulic components, automation parts, tooling\n• Energy: Oil & gas equipment, renewable energy systems\n• Electronics: Heat sinks, housings, precision mounting hardware\n\nEach industry brings unique challenges that we address through specialized processes and quality requirements.",
+    "category": "Industries"
+  }
+]
